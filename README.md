@@ -16,6 +16,7 @@ In DialEval-1, we consider annotations ground truth, and participants are requir
 Links
 - [Homepage of DialEval-1 Task](http://sakailab.com/dialeval1/)
 - [Introduction of the training dataset (current page)](https://dialeval-1.github.io/dataset/)
+- [NTCIR-15](http://research.nii.ac.jp/ntcir/ntcir-15/index.html)
 
 
 # Registration 
