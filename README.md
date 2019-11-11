@@ -2,7 +2,7 @@
 
 - Homepage of DialEval-1 Task: http://sakailab.com/dialeval1/
 
-- Introduction of the training dataset : https://dialeval-1.github.io/dataset/
+- Introduction of the training dataset (this page): https://dialeval-1.github.io/dataset/
 
 Recently, many reserachers are trying to build automatic helpdesk systems. However, there are very few methods to evaluate such systems. In **DialEval-1**, we aim to explore methods to evaluate task-oriented, multi-round, textual dialogue systems automatically. This dataset have the following features:
 
