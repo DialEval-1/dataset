@@ -83,7 +83,7 @@ Each element of **annotations** contains the following fields:
 - CNaN: Customer Not-a-Nugget
 - HNaN: Helpdesk Not-a-Nugget
 
-<img src="img/nugget_example.png" alt="drawing" style="width:600px;"/>
+<img src="https://i.postimg.cc/TPqH4ttz/nugget-example.png" alt="drawing" style="width:600px;"/>
 
 
 
@@ -146,4 +146,4 @@ Please contact: [dialeval1org@list.waseda.jp](mailto:dialeval1org@list.waseda.jp
 
 # Conditions and Terms
 
-See [terms]
+See https://dialeval-1.github.io/dataset/terms
