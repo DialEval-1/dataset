@@ -1,8 +1,5 @@
 # Training Data of DialEval-1 Task
 
-- Homepage of DialEval-1 Task: http://sakailab.com/dialeval1/
-
-- Introduction of the training dataset (this page): https://dialeval-1.github.io/dataset/
 
 Recently, many reserachers are trying to build automatic helpdesk systems. However, there are very few methods to evaluate such systems. In **DialEval-1**, we aim to explore methods to evaluate task-oriented, multi-round, textual dialogue systems automatically. This dataset have the following features:
 
@@ -11,10 +8,14 @@ Recently, many reserachers are trying to build automatic helpdesk systems. Howev
 - Nugget type annotatoins for each turn: indicate whether the current turn is useful to accomplish the task.
 - Quality annotation for each dialogue. 
   - task accomplishment
-  - customer satisfcation
+  - customer satisfaction
   - dialogue effectiveness 
 
 In DialEval-1, we consider annotations ground truth, and participants are required to predict nugget type for each turn (Nugget Detection, or ND) and dialogue quality for each dialogue (Dialogue Quality, or DQ).
+
+Links
+- [Homepage of DialEval-1 Task](http://sakailab.com/dialeval1/)
+- [Introduction of the training dataset (current page)](https://dialeval-1.github.io/dataset/)
 
 
 # Registration 
