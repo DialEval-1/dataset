@@ -1,14 +1,48 @@
+# NTCIR-15 DialEval-1 Task
 
-# Dataset Overview
-The Chinese dataset contains 4,090 (3,700 for training + 390 for development)  customer-helpdesk dialgoues which are crawled from [Weibo](weibo.com). All of these dialogues are annotated by 19 annotators.
 
-The English dataset contains 2062 dialogues (2, 251 for training + 390 for development)  are manually translated from a subset of the Chinese dataset. The English dataset shares the same annotations with the Chinese dataset.
+Recently, many reserachers are trying to build automatic helpdesk systems. However, there are very few methods to evaluate such systems. In **DialEval-1**, we aim to explore methods to evaluate task-oriented, multi-round, textual dialogue systems automatically. This dataset have the following features:
+
+- Chinese customer-helpdesk dialogues carwled from [Weibo](weibo.com).
+- English dialgoues: manually translated from a subset of the Chinese dialgoues.
+- Nugget type annotatoins for each turn: indicate whether the current turn is useful to accomplish the task.
+- Quality annotation for each dialogue. 
+  - task accomplishment
+  - customer satisfcation
+  - dialogue effectiveness 
+
+In DialEval-1, we consider annotations ground truth, and participants are required to predict nugget type for each turn (Nugget Detection, or ND) and dialogue quality for each dialogue (Dialogue Quality, or DQ).
+
+
+# Registration 
+
+TO and register and obtain the dataset ,please send an email to dialeval1org@list.waseda.jp  with the following information so that we can send you the training data.
+- Team Name (e.g. Waseda)
+- Principal investigator’s name, affilication, email address
+- Names, affiliations, email addresses of other team members
+- Subtasks that you plan to participate: Chinese, English, or BOTH
+
+Later, NII will require you to register to NTCIR tasks through their website, but please contact us by email first
+
+
+
+# Leaderboard
+
+Comming Soon
+
+
+
+# Training Data Overview
+
+The Chinese training dataset contains 4,090 (3,700 for training + 390 for dev)  customer-helpdesk dialgoues which are crawled from [Weibo](weibo.com). All of these dialogues are annotated by 19 annotators.
+
+The English dataset contains 2, 251 dialogues for training + 390 for dev. They  are manually translated from a subset of the Chinese dataset. The English dataset shares the same annotations with the Chinese dataset.
 
 - Training set
-  -  train_cn.json (3,700 dialogues)
-  -  train_en.json (2,251 dialogues)
+  -  train_cn.json (3,700 Chinese dialogues)
+  -  train_en.json (2, 251 English dialogues)
 
-- Development set
+- Dev set
   - dev_cn.json (390 dialogues)
   - dev_en.json (390 dialogues)
 
@@ -49,7 +83,7 @@ Each element of **annotations** contains the following fields:
 - CNaN: Customer Not-a-Nugget
 - HNaN: Helpdesk Not-a-Nugget
 
-<img src="https://i.postimg.cc/TPqH4ttz/nugget-example.png" alt="drawing" style="width:600px;"/>
+<img src="img/nugget_example.png" alt="drawing" style="width:600px;"/>
 
 
 
@@ -85,14 +119,30 @@ Instead of juding whether the estimated label is equal to the gold label, we com
 For the details about the metrics, please vistit:
 
 * [NTCIR-15 Dialogue Evaluation Task Definition ](http://sakailab.com/wp-content/uploads/2019/10/dialeval1taskdef.pdf ) 
-
 * [Comparing Two Binned Probability Distributions for Information Access Evaluation](https://waseda.app.box.com/v/SIGIR2018preprint).
+
 
 ###  Test and Submission
 
- Will be released later.
+Comming Soon
 
 
+# Tenative Schedule 
+
+Jul 2019	Test data crawling [DONE]
+Aug-Oct 2019	Adding more English translations to the training data [DONE]
+Oct 2019	Task registrations open
+Oct-Dec 2019	Test data annotation
+Jun 2020	Test data released / Task registrations due
+Jul 2020	Run submissions due
+Aug 2020	Evaluation results released
+Dec 2020	NTCIR-15 Conference at NII, Tokyo, Japan
+Timezone: Japan (UTC+9)
+
+
+# Have questions?
+
+Please contact: [dialeval1org@list.waseda.jp](mailto:dialeval1org@list.waseda.jp)        
 
 # Conditions and Terms
 
