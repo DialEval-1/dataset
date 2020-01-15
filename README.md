@@ -37,7 +37,9 @@ Comming Soon
 
 
 
-# Training Data Overview
+# Overview of Dataset
+
+## Training Data
 
 The Chinese training dataset contains 4,090 (3,700 for training + 390 for dev)  customer-helpdesk dialgoues which are crawled from [Weibo](weibo.com). All of these dialogues are annotated by 19 annotators.
 
@@ -51,10 +53,14 @@ The English dataset contains 2, 251 dialogues for training + 390 for dev. They  
   - dev_cn.json (390 dialogues)
   - dev_en.json (390 dialogues)
 
+## Test Data
+Will be released in Jun 2020 according to the task schedule.
 
-### Annotators
+## Annotation
 
-We hired 19  Chinese students from the department of Computer Science, Waseda University to annotate this dataset.
+We hired 19 Chinese students  to annotate the training/dev dataset in 2018. In 2019, the test dataset of DialEval-1 were annotated by another group of annotators. Thus, there may be a gap between the training data and test data, as the dialogue annotation is quite subjective.
+
+
 
 # Format of the JSON file
 
@@ -152,3 +158,4 @@ Please contact: [dialeval1org@list.waseda.jp](mailto:dialeval1org@list.waseda.jp
 # Conditions and Terms
 
 See https://dialeval-1.github.io/dataset/terms
+
