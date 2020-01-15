@@ -19,9 +19,9 @@ Links
 - [NTCIR-15](http://research.nii.ac.jp/ntcir/ntcir-15/index.html)
 
 
-# Registration 
+# Registration
 
-TO and register and obtain the dataset ,please send an email to dialeval1org@list.waseda.jp  with the following information so that we can send you the training data.
+To register NTCIR-15 DialEval-1 Task and **obtain the dataset**, please send an email to dialeval1org@list.waseda.jp  with the following information so that we can send you the training data.
 - Team Name (e.g. Waseda)
 - Principal investigator’s name, affilication, email address
 - Names, affiliations, email addresses of other team members
